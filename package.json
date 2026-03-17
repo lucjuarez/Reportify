@@ -1,0 +1,29 @@
+{
+  "name": "reportify-api",
+  "version": "1.0.0",
+  "description": "API para Reportify con extracción de Meta Ads y análisis de IA",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "meta-ads",
+    "openai",
+    "reporting",
+    "tucuman"
+  ],
+  "author": "Luciano Juarez",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.28.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
